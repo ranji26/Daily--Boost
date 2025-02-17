@@ -1,0 +1,49 @@
+body{
+    padding: 0;
+    border: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F5F5F5;
+    background-image: url('pure.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 100vw;
+height: 100vh;
+object-fit: fill;
+
+}
+body h1{
+    color: #F5F5F5;
+}
+div{
+    padding: 50px;
+}
+.dis-advice{
+    font-size: 30px;
+    margin: 40px;
+    border: black solid 2px;
+    width: 50%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #DD88CF;
+    color: black;
+    border-radius: 15px;
+}
+.button{
+    background-color: lightcyan;
+    color: black;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-top: 20px;
+   padding: 5px 15px;
+   width: 100px;
+   height: 40px;
+}
+.button:hover{
+background-color: #4B164C;
+color: #F5F5F5;
+transform: scale(0.9);
+}
